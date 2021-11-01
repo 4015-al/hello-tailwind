@@ -15,4 +15,10 @@ npm install
 npm run serve
 # open ./public.index in a browser
 ```
+## Check the doc.
+
+https://tailwindcss.com/docs/
+
+
+
 
