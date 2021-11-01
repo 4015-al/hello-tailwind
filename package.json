@@ -1,0 +1,21 @@
+{
+  "name": "hello-tailwind",
+  "version": "1.0.0",
+  "description": "minimalist project to test tailwind styles",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "serve": "npm run build-css"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "4015.dev",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "postcss-import": "^14.0.2"
+  }
+}
